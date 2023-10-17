@@ -239,7 +239,7 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target="_blank">Resume</ResumeButton>
+            <ResumeButton href={Bio.resume} target="_blank">Check CV</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer>
             <Img src={portrait} alt="portrait-img"/>
