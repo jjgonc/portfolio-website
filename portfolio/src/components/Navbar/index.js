@@ -3,6 +3,7 @@ import React from "react";
 import styled, { useTheme } from "styled-components";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
+import { Bio } from "../../data/constants";
 
 
 
@@ -177,7 +178,7 @@ const Navbar = () => {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton>Github Profile</GithubButton>
+          <GithubButton href={Bio.github} target="_blank">Github Profile</GithubButton>
         </ButtonContainer>
         {
           isOpen &&
@@ -187,7 +188,7 @@ const Navbar = () => {
             <MobileMenuLinks href='#experience' onClick={() => {setIsOpen(!isOpen)}}>Experience</MobileMenuLinks>
             <MobileMenuLinks href='#projects' onClick={() => {setIsOpen(!isOpen)}}>Projects</MobileMenuLinks>
             <MobileMenuLinks href='#education' onClick={() => {setIsOpen(!isOpen)}}>Education</MobileMenuLinks>
-            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href="/" target="_blank">Github Profile</GithubButton>
+            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GithubButton>
           </MobileMenu>
         }
       </NavContainer>
