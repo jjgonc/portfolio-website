@@ -141,7 +141,7 @@ const ProjectCards = ({project}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
+            <Button>View Project</Button>
         </Card>
     )
 }
