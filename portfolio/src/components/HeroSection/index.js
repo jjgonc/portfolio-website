@@ -180,12 +180,11 @@ const ResumeButton = styled.a`
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+      transform: scale(1.1);
+      transition: all 0.4s ease-in-out;
+      box-shadow:  20px 20px 60px #1F2634,
+      filter: brightness(1);
     }    
-    
     
     @media (max-width: 640px) {
         padding: 12px 0;
