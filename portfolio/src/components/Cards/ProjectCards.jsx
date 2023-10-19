@@ -154,7 +154,7 @@ const Avatar = styled.img`
 `
 
 const ProjectCards = ({ project }) => {
-    const [expanded, setExpanded] = useState(false);
+    const [expanded] = useState(false);
 
     return (
         <Card>
