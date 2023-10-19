@@ -194,23 +194,44 @@ const ResumeButton = styled.a`
 
 const Img = styled.img`
   position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 400px; /* Set a specific maximum width */
+  max-height: 600px; /* Set a specific maximum height */
+  width: auto; /* Allow the image to scale based on the aspect ratio */
+  height: auto; /* Allow the image to scale based on the aspect ratio */
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px; /* Adjust the maximum width for smaller screens */
+    max-height: 400px; /* Adjust the maximum height for smaller screens */
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 200px; /* Adjust the maximum width for even smaller screens */
+    max-height: 300px; /* Adjust the maximum height for even smaller screens */
   }
 `;
+
+// const Img = styled.img`
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   max-width: 400px;
+//   max-height: 400px;
+//   border-radius: 50%;
+//   border: 2px solid ${({ theme }) => theme.primary};
+
+//   @media (max-width: 768px) {
+//     max-width: 400px;
+//     max-height: 400px;
+//   }
+
+//   @media (max-width: 640px) {
+//     max-width: 280px;
+//     max-height: 280px;
+//   }
+// `;
+
 
 
 const HeroSection = () => {
