@@ -355,10 +355,10 @@ export const Bio = {
       title: "Personal Portfolio",
       date: "2023",
       description:
-        "A simple and minimalistic website for my personal portfolio that works as a showcase, highlighting my academic and professional journey .",
+        "A simple and minimalistic website for my personal portfolio that works as a showcase, highlighting my academic and professional journey.",
       image:
         personalPortfolio,
-      tags: ["React Js", "Styled Components"],
+      tags: ["React Js", "JavaScript", "CSS", "HTML"],
       category: "web app",
       github: "https://github.com/jjgonc/portfolio-website",
     },

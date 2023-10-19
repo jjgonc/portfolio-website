@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useState } from 'react';
 
 
 const Button = styled.a`
@@ -106,14 +107,36 @@ const Date = styled.div`
 const Description = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.text_secondary + 99};
-    overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: ${({ expanded }) => (expanded ? 'unset' : '3')};
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
-`
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(transparent 60%, ${({ theme }) => theme.card});
+        pointer-events: none;
+        opacity: ${({ expanded }) => (expanded ? '0' : '1')};
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    &:hover {
+        -webkit-line-clamp: unset;
+        &:before {
+            opacity: 0;
+        }
+    }
+`;
 
 const Members = styled.div`
     display: flex;
@@ -130,28 +153,33 @@ const Avatar = styled.img`
     border: 3px solid ${({ theme }) => theme.card};
 `
 
-const ProjectCards = ({project}) => {
+const ProjectCards = ({ project }) => {
+    const [expanded, setExpanded] = useState(false);
+
     return (
         <Card>
-            <Image src={project.image}/>
+            <Image src={project.image} />
             <Tags>
                 {project.tags?.map((tag) => (
-                <Tag key={tag}>{tag}</Tag>
+                    <Tag key={tag}>{tag}</Tag>
                 ))}
             </Tags>
             <Details>
                 <Title>{project.title}</Title>
                 <Date>{project.date}</Date>
-                <Description>{project.description}</Description>
+                <Description expanded={expanded}>{project.description}</Description>
             </Details>
             <Members>
                 {project.member?.map((member) => (
-                    <Avatar src={member.img}/>
+                    <Avatar src={member.img} />
                 ))}
             </Members>
-            <Button href={project.github} target="_blank">View Project</Button>
+            <Button href={project.github} target="_blank">
+                View Project
+            </Button>
         </Card>
-    )
-}
+    );
+};
+
 
 export default ProjectCards
