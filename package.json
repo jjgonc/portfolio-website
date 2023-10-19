@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
