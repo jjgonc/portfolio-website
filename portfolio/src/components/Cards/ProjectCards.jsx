@@ -2,18 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-const Button = styled.button`
+const Button = styled.a`
     display: none;
     width: 100%;
     padding: 10px;
-    background-color: ${({ theme }) => theme.white};
-    color: ${({ theme }) => theme.text_black};
+    background-color: ${({ theme }) => theme.primary};
+    color: ${({ theme }) => theme.white};
     font-size: 14px;
     font-weight: 700;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.8s ease-in-out;
+    text-decoration: none;
+    text-align: center;
+    :hover {
+        background: ${({ theme }) => theme.primary};
+        color: ${({ theme }) => theme.text_white};
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    }
 `
 const Card = styled.div`
     width: 330px;
@@ -141,7 +149,7 @@ const ProjectCards = ({project}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            <Button>View Project</Button>
+            <Button href={project.github} target="_blank">View Project</Button>
         </Card>
     )
 }
