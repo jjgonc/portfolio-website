@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio-website/static/js/main.de35f179.js",
+    "main.js": "/portfolio-website/static/js/main.925901e2.js",
     "static/media/twitterCryptoPrice.jpg": "/portfolio-website/static/media/twitterCryptoPrice.73e99eb68ba44bcf91ad.jpg",
     "static/media/rasbet.png": "/portfolio-website/static/media/rasbet.91f129af287fbb805cb6.png",
     "static/media/personalPortfolio.png": "/portfolio-website/static/media/personalPortfolio.1171eabd4142b89cf498.png",
-    "static/media/portrait.jpg": "/portfolio-website/static/media/portrait.c1f875dbab330c94f411.jpg",
+    "static/media/portrait_jjg.jpg": "/portfolio-website/static/media/portrait_jjg.ee667cea967212726861.jpg",
     "static/media/Fall-Detection.jpeg": "/portfolio-website/static/media/Fall-Detection.b723b8c6ba882ea3c217.jpeg",
     "static/media/uminho.jpg": "/portfolio-website/static/media/uminho.7af93fc0c3c3f4a5c5ba.jpg",
     "static/media/minhopark.jpg": "/portfolio-website/static/media/minhopark.093389f0f7f28e21beb9.jpg",
     "index.html": "/portfolio-website/index.html",
     "main.bf538fe7.css.map": "/portfolio-website/static/css/main.bf538fe7.css.map",
-    "main.de35f179.js.map": "/portfolio-website/static/js/main.de35f179.js.map"
+    "main.925901e2.js.map": "/portfolio-website/static/js/main.925901e2.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.de35f179.js"
+    "static/js/main.925901e2.js"
   ]
 }
