@@ -17,7 +17,7 @@ export const Bio = {
     ],
     description: "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/jjgonc",
-    resume: "https://drive.google.com/file/d/1z01d_AbJTZqpA8itpzyk5kq7lQAFmIau/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1l5tOdMJ54bBjDFAoyiJ4ey35lS0fxIkH/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/josejoaogoncalves/",
     twitter: "https://twitter.com/jjcgonc",
     insta: "https://www.instagram.com/jjgonc/",
@@ -33,11 +33,11 @@ export const Bio = {
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
-        // {
-        //   name: "Redux",
-        //   image:
-        //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        // },
+        {
+          name: "Flask",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/flask/flask-original.svg",
+        },
         // {
         //   name: "Next Js",
         //   image:
@@ -98,7 +98,7 @@ export const Bio = {
             "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/c/c-original.svg"
         },
         {
-          name: "Dot Net",
+          name: "dotNet",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/dot-net/dot-net-plain.svg"
         },
@@ -158,7 +158,7 @@ export const Bio = {
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/git/git-original.svg",
         },
         {
           name: "GitHub",
@@ -183,7 +183,7 @@ export const Bio = {
         {
           name: "Postman",
           image:
-            "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+            "https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/postman/postman-original.svg",
         },
         {
           name: "Anaconda",
@@ -238,8 +238,8 @@ export const Bio = {
       img: uminho,
       role: "Master's in Software Engineering",
       company: "Universidade do Minho",
-      date: "August 2022 - Present",
-      desc: "Started my Masters in Software Engineering at the University of Minho. I chose the profiles of Intelligent Systems and Knowledge Engineering, that focus on Artificial Intelligence/Machine Learning and Data Science, respectively. In the second year, I started doing an Informatics Project internship at F3M, aswell as my Masters Thesis in 'Improving Learning Processes of Students with Visual Impairments Using Generative Artificial Intelligence'.",
+      date: "August 2022 - December 2024",
+      desc: "Started my Masters in Software Engineering at the University of Minho. I chose the profiles of Intelligent Systems and Knowledge Engineering, that focus on Artificial Intelligence/Machine Learning and Data Science, respectively. In the second year, I started doing an Informatics Project internship at F3M, aswell as my Masters Thesis in 'Improving the Learning Processes of Visually Disabled Students in an E-Learning System'.",
     },
     {
       id: 3,

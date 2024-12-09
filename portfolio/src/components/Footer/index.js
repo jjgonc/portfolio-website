@@ -103,7 +103,7 @@ function Footer() {
           {/* <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon> */}
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 José Gonçalves. All rights reserved.
+          &copy; 2024 José Gonçalves. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
