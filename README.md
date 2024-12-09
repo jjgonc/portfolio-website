@@ -13,6 +13,6 @@
 
 `cd ..`
 
-`npm run biuld`
+`npm run build`
 
 `npm run deploy` to deploy
